@@ -1,0 +1,28 @@
+{
+    "type": "module",
+    "name": "country-rest-api",
+    "version": "1.0.0",
+    "description": "A  Node.js Country REST API with authentication and protected routes for Country data ",
+    "main": "app.js",
+    "scripts": {
+        "start": "node main",
+        "dev": "nodemon main"
+    },
+    "dependencies": {
+        "axios": "^1.5.0",
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.19.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.17.1",
+        "jsonfile": "^6.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "pg": "^8.11.3",
+        "pg-promise": "^10.7.7",
+        "sequelize": "^6.33.0"
+    },
+    "author": "Shashank Kumar Dubey",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
