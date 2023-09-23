@@ -4,6 +4,8 @@ import countryRoutes from './routes/countryRoutes.js'; // Import country routes
 import authenticateToken from './middleware/authenticateToken.js'; 
 import pkg from 'body-parser';
 import sequelize from './config/database.js';
+import * as dotenv from 'dotenv';
+dotenv.config({path : ".env"});
 
 const {json, urlencoded } = pkg;
 const app = express();
