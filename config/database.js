@@ -1,4 +1,6 @@
 import Sequelize from 'sequelize';
+import * as dotenv from 'dotenv';
+dotenv.config({path : ".env"});
 
 // Define your database connection details
 const databaseName = process.env.POSTGRES_DB || 'yourdbname';
